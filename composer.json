@@ -1,0 +1,22 @@
+{
+  "config": {
+    "bin-dir": "bin/"
+  },
+  "name": "newage/TranslateManager",
+  "description": "Translate Manager for translate text with any adapters",
+  "license": "MIT",
+  "keywords": [
+    "translate"
+  ],
+  "require": {
+    "php": ">=5.5"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "5.1.*"
+  },
+  "autoload": {
+    "psr-0": {
+      "TranslateManager": "src/"
+    }
+  }
+}
